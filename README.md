@@ -18,9 +18,9 @@ IF YOU WANT SAVIACCESS TO GENERATE THE SAS CODE:
 	2. Open the generated SAS program found in the work area. Make any necessary changes to the data access section
 
 
-##Sample of what is generated (or what needs to be coded by hand) 
+## Sample of what is generated (or what needs to be coded by hand) 
 
-###EXECUTE THE SAS CODE
+### EXECUTE THE SAS CODE
 
   FILENAME DATAPIPE PIPE "c:\temp\SaviAccess.exe -s false -q ""SELECT * FROM [WideWorldImporters].[Sales].[OrderLines]"" -t ""OrderLines"" -o ""driver=ODBC Driver 17 for SQL Server;Server=INTERNAL-SERVER;Database=WideWorldImporters;Trusted_Connection=Yes;"" ";
 
