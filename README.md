@@ -1,5 +1,4 @@
 # SaviAccess
-SaviAccess allows any ODBC connection to be used to bring data into a SAS dataset. 
 
 ## Overview
 
