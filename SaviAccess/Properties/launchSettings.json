@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SaviAccess": {
+      "commandName": "Project",
+      "commandLineArgs": "-q \"SELECT * FROM [WideWorldImporters].[Warehouse].[ColdRoomTemperatures_Archive]\" -t \"ColdRoomTemperatures_Archive\" -o \"driver=ODBC Driver 17 for SQL Server;Server=ALAN-PC;Database=WideWorldImporters;Trusted_Connection=Yes;\" -s true -w \"Z:\\scratch\\SaviAccess\" -b false"
+    }
+  }
+}
